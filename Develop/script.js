@@ -7,7 +7,7 @@ var numbersEl = document.querySelector("#numbers");
 var symbolsEl = document.querySelector("#symbols");
 var generateEl = document.querySelector("#generate");
 var clipboardEl = document.querySelector("#clipboard");
-var resultEl = document.querySelector("#result")
+var resultEl = document.querySelector("#password")
 // Add event listener to generate button
 
 generateEl.addEventListener("click", function() {
@@ -18,7 +18,7 @@ generateEl.addEventListener("click", function() {
   var hasSymbols = symbolsEl.checked;
   
 
-  resultEl.innertext = generatePassword(
+  resultEl.innerText = generatePassword(
     hasLower,
     hasUpper, 
     hasNumbers, 
@@ -79,9 +79,10 @@ function getRandomNumber () {
   return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
 }
 function getRandomSymbol () {
-  var symbols = ["!@#$%^&*(){}[]=+<>?.,"]
+  var symbols = "!@#$%^&*(){}[]=+<>?.,"
   return symbols [Math.floor(Math.random() * symbols.length)];
 }
+
 
 // console.log(getRandomNumber()) 
 // uncomment to test functions in console. Name function accordingly
