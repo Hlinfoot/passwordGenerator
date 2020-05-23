@@ -7,6 +7,6 @@ All buttons work and the length variable is able to change to any number.  It wi
 
 https://hlinfoot.github.io/passwordGenerator/
 
-![](Asests/passwordpost28click.png)
-![](Assests/passwordpreclick.png)
-![](Assests/passwordwith12chars.png)
+![](Assets/passwordpost28click.png)
+![](Assets/passwordpreclick.png)
+![](Assets/passwordwith12chars.png)
