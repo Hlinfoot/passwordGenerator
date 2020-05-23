@@ -1,6 +1,6 @@
 # passwordGenerator
 
 In this assignment, I will need to create a password generator 
-![](assests/passwordpost28click.png)
-![](assests/passwordpreclick.png)
-![](assests/passwordwith12chars.png)
+![](Asests/passwordpost28click.png)
+![](Assests/passwordpreclick.png)
+![](Assests/passwordwith12chars.png)
